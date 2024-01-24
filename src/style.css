@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+ min-width: 100vw;
+ min-height: 100vh;
+ background-color: #f6f6f6;
+}
+
+.animacion {
+    margin-top: 3rem;
+    animation: animacion 1s ;
+    transition: all 1s ease-in-out;
+}
+
+@keyframes animacion {
+    0%{
+       opacity: 0;
+    }
+    100%{
+        
+        opacity: 1;
+    }
+}
