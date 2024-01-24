@@ -132,7 +132,7 @@ const dataReactive = reactive({
     classesComputer: '',
 })
 
-const baseUrl = import.meta.env.BASE_URL + "src/assets/images/"
+const baseUrl = import.meta.env.BASE_URL// + "src/assets/images/"
 
 
 if (player.value === piedra){

@@ -9,7 +9,7 @@
         <div> 
             
             <div class="w-[90%] max-w-[10rem] tablet:w-[70%] text-white font-bold text-xs">
-                <img src="../assets/images/logo.svg" alt="">
+                <img src="/logo.svg" alt="">
                 <i class="opacity-40">by <span class="text-[#8fa4ff]">Breyner U.</span></i>
             </div>
         </div>
@@ -76,7 +76,9 @@ const modalResult = computed(() => store.state.modalWinner)
 const rulesStore = computed(() => store.state.rules)
 const scorePlayer = computed(() => store.state.playerScore)
 
-const baseUrl = import.meta.env.BASE_URL + "src/assets/images/"
+const baseUrl = import.meta.env.BASE_URL //+ "src/assets/images/"
+
+console.log('la base url es : ', baseUrl);
 const options = [{
     index: 0,
     title: 'rock',
