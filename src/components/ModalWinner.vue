@@ -4,7 +4,7 @@
         <div class="flex justify-center gap-8 text-center">
             <div >
                 <div 
-                :class="ganador === 'you win' ? 'shadow-xl' : 'text-red-500'">
+                :class="ganador === 'you win' ? 'shadow-xl' : ''">
                     <h2 
                     
                     class="mb-4 text-xs text-white uppercase">you picked</h2>

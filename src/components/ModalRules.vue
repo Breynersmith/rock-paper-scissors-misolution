@@ -5,7 +5,7 @@
         class="bg-slate-100 h-[100vh] w-[100%] absolute top-0 text-center flex flex-col items-center justify-center gap-16 z-[10000]">
         <h1 class="text-3xl font-bold uppercase text-gray-700">Rules</h1>
         <div>
-            <img src="../assets/images/image-rules.svg" alt="">
+            <img src="/image-rules.svg" alt="">
         </div>
         <button 
         @click="toggleModal" 
