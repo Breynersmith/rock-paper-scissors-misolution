@@ -11,5 +11,4 @@ This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](h
 
 
 - Solution URL: [github](https://github.com/Breynersmith/rock-paper-scissors-misolution.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Live Site URL: [gh pages ☻](https://breynersmith.github.io/rock-paper-scissors-misolution/)
